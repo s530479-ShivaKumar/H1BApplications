@@ -13,11 +13,11 @@ We are going to work on H1B Application records from 2016 to 2017. We are going 
 We are taking H1B Applications dataset which has employer name, Cities,Zip Codes and so on. This DataSet had records from 2016 to 2017. Dataset is of size 610MB and records from 2016 and 2017. Dataset is a combination of text and numerics, the file extension is .csv and structured
 ### DataSource: https://www.kaggle.com/evangelize/h1b-visa-applications#H1B.csv
 ## The Challenge (Big Data Qualifications)
-### veracity:  Dataset is trustworthy
-### volume: Dataset contains nearly 1.5 Million Records
-### variety: Dataset is Structured
-### velocity: Dataset is updated frequently
-### value: It is valuable because we can track the records of H1B Applicants
+1. veracity:  Dataset is trustworthy
+1. volume: Dataset contains nearly 1.5 Million Records
+1. variety: Dataset is Structured
+1. velocity: Dataset is updated frequently
+1. value: It is valuable because we can track the records of H1B Applicants
 
 ## Big Data Questions
 - Shiva - For each employer, find the number of applications filed.
