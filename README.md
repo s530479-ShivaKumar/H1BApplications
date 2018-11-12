@@ -22,6 +22,11 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 
 ## Big Data Questions
 ### Shiva - For each employer, find the number of applications filed.
+| case_submitted | employer_name     | employer_city | employer_state | employer_postal_code | total_workers | decision_date | soc_code | case_status | wage_rate_of_pay_from | full_time_position | wage_unit_of_pay | prevailing_wage | pw_unit_of_pay | year |
+|----------------|-------------------|---------------|----------------|----------------------|---------------|---------------|----------|-------------|-----------------------|--------------------|------------------|-----------------|----------------|------|
+| 9/27/2016      | INFO SERVICES LLC | LIVONIA       | MI             | 48152                | 1             | 9/30/2016     | 15-1199  | WITHDRAWN   | 102000                | Y                  | Year             | 90376           | Year           | 2017 |
+
+
 ### Roshan
 ### Santhosh
 ### Aditya
