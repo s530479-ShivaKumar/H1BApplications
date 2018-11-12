@@ -21,13 +21,13 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 ### value: It is valuable because we can track the records of H1B Applicants
 
 ## Big Data Questions
-### Shiva 
+### Shiva - For each employer, find the number of applications filed.
 ### Roshan
 ### Santhosh
 ### Aditya
 
 ## Big Data Solutions
-### Shiva 
+### Shiva - Count of applications filed by an employer.
 ### Roshan
 ### Santhosh
 ### Aditya
