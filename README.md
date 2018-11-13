@@ -72,7 +72,7 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 |----------------|-------------------|---------------|----------------|----------------------|---------------|---------------|----------|-------------|-----------------------|--------------------|------------------|-----------------|----------------|------|
 | 11/3/2015      | SUNTRUST BANKS INC | ATLANTA       | GA             | 30308                | 1             | 10/1/2016     | 13-2099  | 	CERTIFIED-WITHDRAWN   | 71750.0                | Y                  | Year             | 59405.0           | Year           | 2017 |
 
-- Mapper Output/ Reducer Input : `SUNTRUST BANKS INC - 1`
-- Reducer Output: `SUNTRUST BANKS INC- 100`     
+- Mapper Output/ Reducer Input : `11/3/2015 - 1`
+- Reducer Output: `11/3/2015 - 200`     
 - Language: Python
 - Bar Chart
