@@ -1,7 +1,7 @@
 # H1BApplications
 Big Data - 44517
 - Roshan Thalal, Santhosh Bonala
-- Shiva Kumar Mutukula, Aditya Jyothi Swaroop
+- Shiva Kumar Mutukula, Aditya Jytohiswaroop Malireddy
 
 ## Links
 - Repository: [https://github.com/s530479-ShivaKumar/H1BApplications](https://github.com/s530479-ShivaKumar/H1BApplications)  
@@ -23,7 +23,7 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 - Shiva - For each employer, find the number of applications filed.
 - Roshan - For each states, find the total number of H1B Application.
 - Santhosh - For Each SOC-Code, Total Number of Applications Received ?
-- Aditya
+- Aditya - For each date, find the number of applications filed?
 
 ## Big Data Solutions
 ### Shiva - Count of applications filed by an employer.
@@ -63,4 +63,16 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
     3. Reducer Output: `15-1121,10`
     4. Language: Python
     5. Bar Chart
-- Aditya
+    
+## Aditya
+
+- Mapper Input 
+
+| case_submitted | employer_name     | employer_city | employer_state | employer_postal_code | total_workers | decision_date | soc_code | case_status | wage_rate_of_pay_from | full_time_position | wage_unit_of_pay | prevailing_wage | pw_unit_of_pay | year |
+|----------------|-------------------|---------------|----------------|----------------------|---------------|---------------|----------|-------------|-----------------------|--------------------|------------------|-----------------|----------------|------|
+| 11/3/2015      | SUNTRUST BANKS INC | ATLANTA       | GA             | 30308                | 1             | 10/1/2016     | 13-2099  | 	CERTIFIED-WITHDRAWN   | 71750.0                | Y                  | Year             | 59405.0           | Year           | 2017 |
+
+- Mapper Output/ Reducer Input : `SUNTRUST BANKS INC - 1`
+- Reducer Output: `SUNTRUST BANKS INC- 100`     
+- Language: Python
+- Bar Chart
