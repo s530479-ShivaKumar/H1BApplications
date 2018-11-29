@@ -8,7 +8,7 @@ for index,line in enumerate(input, start=1):
     # split the csv record to a tuple
     record = line.strip().split(",")
     # check whether the length of a record is 15 to avoid dirty data
-    if len(record) == 15 and re.compile("[0-9]+").match(record[7]):
+    if len(record) == 15 and re.compile("[0-9]{2}-[0-9]+").match(record[7]):
             # output the soc_code along with 1 to perform addition in reducer phase
             output.write("{0},{1}\n".format(record[7], 1))
             if index < 5:
