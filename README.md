@@ -33,10 +33,22 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 |----------------|-------------------|---------------|----------------|----------------------|---------------|---------------|----------|-------------|-----------------------|--------------------|------------------|-----------------|----------------|------|
 | 9/27/2016      | INFO SERVICES LLC | LIVONIA       | MI             | 48152                | 1             | 9/30/2016     | 15-1199  | WITHDRAWN   | 102000                | Y                  | Year             | 90376           | Year           | 2017 |
 
-- Mapper Output/ Reducer Input : `INFO SERVICES LLC - 1`
-- Reducer Output: `INFO SERVICES LLC - 100`     
+- Mapper Output/ Reducer Input : `INFO SERVICES LLC , 1`
+- Reducer Output: `INFO SERVICES LLC , 100`     
 - Language: Python
 - Bar Chart
+![shimg](https://user-images.githubusercontent.com/31738370/49255125-ad4ceb00-f3f0-11e8-9b2d-9de336900fdd.PNG)
+### Top 5 employers who filed max number of applications	 
+![top5](https://user-images.githubusercontent.com/31738370/49255203-e71df180-f3f0-11e8-8a44-f61e8b3a5a54.PNG)
+
+### summary
+The highest number of applications filed by employers is as follows
+1. INFOSYS LIMITED - 37874 Applications
+2. TATA CONSULTANCY SERVICES LIMITED - 25840 Applications
+3. CAPGEMINI AMERICA INC - 25088 Applications
+4. IBM INDIA PRIVATE LIMITED - 17488 Applications
+5. WIPRO LIMITED - 15168 Applications
+
 
 
 ### Roshan
