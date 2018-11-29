@@ -5,7 +5,7 @@ output = open("./Output/reducerout.txt","w", encoding="utf-8")
 # Iterate through each line of input and calculate sum for each category for all records
 thisKey = ""
 thisValue = 0.0
-
+row = 1
 for index,line in enumerate(input, start=1):
     # split the csv record to a tuple
     record = line.strip().split(",")
@@ -15,7 +15,7 @@ for index,line in enumerate(input, start=1):
         if soc_code.strip() != thisKey:
             if thisKey:
                 # output the last key value pair result
-                output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+                output.write(thisKey.strip() + ',' + str(thisValue)+'\n')
                 if index < 50:
                     print(thisKey.strip() + '\t' + str(thisValue)+'\n')
             # start over when changing keys
@@ -24,6 +24,6 @@ for index,line in enumerate(input, start=1):
         # apply the aggregation function
         thisValue += float(value)
 # output the final entry
-output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+output.write(thisKey.strip() + ',' + str(thisValue)+'\n')
 input.close()
 output.close()
