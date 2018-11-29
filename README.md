@@ -86,3 +86,6 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 - Bar Chart
 ![capture](https://user-images.githubusercontent.com/31738366/49253307-f484ad00-f3eb-11e8-8e8e-cd6602770412.PNG)
 
+![capture1](https://user-images.githubusercontent.com/31738366/49254550-19c6ea80-f3ef-11e8-9e56-f674a4e00aff.PNG)
+
+
