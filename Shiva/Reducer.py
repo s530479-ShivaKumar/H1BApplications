@@ -12,11 +12,11 @@ for line in input:
     record = line.strip().split(",")
     # checking for dirty data with length
     if len(record) == 2:
-        soc_code, value = record
+        employer, value = record
         if soc_code.strip() != thisKey:
             if thisKey:
                 # writing into the output file
-                output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+                output.write(thisKey.strip() + ',' + str(thisValue)+'\n')
                 count = count + 1
                 # printing the top 5 values
                 if count < 5:
@@ -27,6 +27,6 @@ for line in input:
         # Aggregating the results 
         thisValue += float(value)
 # Write the result into the output file
-output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+output.write(thisKey.strip() + ',' + str(thisValue)+'\n')
 input.close()
 output.close()
