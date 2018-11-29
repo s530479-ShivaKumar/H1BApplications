@@ -64,6 +64,13 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 - Language: Python
 - Results
 ![soc_code count](https://raw.githubusercontent.com/s530479-ShivaKumar/H1BApplications/master/SanthoshBonala/images/output.PNG)
+    - The highest number of applications where filed in categories mentioned below
+        1. 15-1121 (Computer Systems Analysts) - 596950 Applications
+        2. 15-1132 (Software Developers) - 538554 Applications
+        3. 15-1131 (Computer Programmers) - 433401 Applications
+        4. 15-1199 (Computer Occupations) - 214834 Applications
+- Summary:
+    I have calculated the number of H1B applications received under particular SOC_CODE(Category). The top four categories under which huge amount of applications were received.
     
 ## Aditya
 
