@@ -77,3 +77,5 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 - Reducer Output: `11/3/2015 - 200`     
 - Language: Python
 - Bar Chart
+![capture](https://user-images.githubusercontent.com/31738366/49253307-f484ad00-f3eb-11e8-8e8e-cd6602770412.PNG)
+
