@@ -85,11 +85,14 @@ We are taking H1B Applications dataset which has employer name, Cities,Zip Codes
 - Language: Python
 - Bar Chart
 ![capture](https://user-images.githubusercontent.com/31738366/49253307-f484ad00-f3eb-11e8-8e8e-cd6602770412.PNG)
-- Summary:
-  I have calculated the number of H1B Applications filed for each date from 2009 to 2017 period, and the most applications are filed in the month of March 2017. 
-        1. For each year from 2012 to 2017, the number of applications filed during the month of March are more.
-        2. For each year from 2012 -2017, the number of applicatons filed during the months od december and january are less when compared to other months.
+### Top 6 dates on which applications filed:
+![capture1](https://user-images.githubusercontent.com/31738366/49256693-7e854380-f3f5-11e8-8125-82a814b0a360.PNG)
 
-![capture1](https://user-images.githubusercontent.com/31738366/49254550-19c6ea80-f3ef-11e8-9e56-f674a4e00aff.PNG)
+### Summary:
+- I have calculated the number of H1B Applications filed for each date from 2009 to 2017 period, and the most applications are filed in the month of March 2017. 
+- For each year from 2012 to 2017, the number of applications filed during the month of March are more.
+- For each year from 2012 -2017, the number of applicatons filed during the months od december and january are less when compared to other months.
+
+
 
 
