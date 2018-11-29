@@ -14,16 +14,16 @@ for line in input:
         if soc_code.strip() != thisKey:
             if thisKey:
                 #These lines of code will give the last key value pair as an Output
-                output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+                output.write(thisKey.strip() + ' ' + str(thisValue)+'\n')
                 index=index+1
                 #This line of code will run if the index is below 15
                 if index <  15:
-                    print(thisKey.strip() + '\t' + str(thisValue)+'\n')
+                    print(thisKey.strip() + ' ' + str(thisValue)+'\n')
             #This line of coe will help the app to start over when changing keys
             thisKey = soc_code.strip()
             thisValue = 0
         thisValue += float(value)
 #These lines of code will output the final entry
-output.write(thisKey.strip() + '\t' + str(thisValue)+'\n')
+output.write(thisKey.strip() + ' ' + str(thisValue)+'\n')
 input.close()
 output.close()
