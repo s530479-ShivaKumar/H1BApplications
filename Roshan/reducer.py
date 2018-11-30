@@ -17,7 +17,7 @@ for line in input:
                 output.write(thisKey.strip() + ' ' + str(thisValue)+'\n')
                 index=index+1
                 #This line of code will run if the index is below 15
-                if index <  15:
+                if index <  40:
                     print(thisKey.strip() + ' ' + str(thisValue)+'\n')
             #This line of coe will help the app to start over when changing keys
             thisKey = soc_code.strip()

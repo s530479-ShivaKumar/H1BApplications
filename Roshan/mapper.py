@@ -10,7 +10,7 @@ for line in f:
         o.write("{0},{1}\n".format(data[3].strip(), 1))
         index = index + 1
        #These two lines of code helps to print 15 values
-        if index < 15:
+        if index < 40:
                 print("{0},{1}\n".format(data[3], 1))
 #This line of code helps close the file
 f.close() 

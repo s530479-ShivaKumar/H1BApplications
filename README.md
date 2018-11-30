@@ -62,7 +62,18 @@ The highest number of applications filed by employers is as follows
 - Mapper Output/ Reducer Input : 'MI,1'
 - Reducer Output : 'MI 1500'
 - Language: Python
--Bar Chart
+-Result 
+
+![graph](https://user-images.githubusercontent.com/42624428/49266674-b18efd80-f41c-11e8-9f1e-3e464f2c2256.PNG)
+
+###Top 14 states that filled most H1B Applicaion in 2016 and 2017
+
+
+
+![graph2](https://user-images.githubusercontent.com/42624428/49267000-fb2c1800-f41d-11e8-9c9f-6143ecd9b420.PNG)
+
+
+
 
 
 ### Santhosh
