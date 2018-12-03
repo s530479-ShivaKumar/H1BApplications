@@ -10,8 +10,8 @@ for line in input:
     #This line of code will split the csv record to a tuple by comma 
     record = line.strip().split(",")
     if len(record) == 2:
-        soc_code, value = record
-        if soc_code.strip() != thisKey:
+        states, value = record
+        if states.strip() != thisKey:
             if thisKey:
                 #These lines of code will give the last key value pair as an Output
                 output.write(thisKey.strip() + ' ' + str(thisValue)+'\n')
@@ -20,7 +20,7 @@ for line in input:
                 if index <  40:
                     print(thisKey.strip() + ' ' + str(thisValue)+'\n')
             #This line of coe will help the app to start over when changing keys
-            thisKey = soc_code.strip()
+            thisKey = states.strip()
             thisValue = 0
         thisValue += float(value)
 #These lines of code will output the final entry
