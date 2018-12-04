@@ -72,7 +72,7 @@ The highest number of applications filed by employers is as follows
 
 ![graph2](https://user-images.githubusercontent.com/42624428/49354247-72181980-f687-11e8-9ccc-7c2e7932b0e8.PNG)
 
-### The top 14 staets that filed most number of H1B Application over 2016 and 2017 are:
+### The top 14 states that filed most number of H1B Application over 2016 and 2017 are:
 
 CA	893765
 NJ	683275
